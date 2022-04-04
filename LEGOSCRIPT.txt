@@ -8,26 +8,20 @@ instance it might output LDRAW script that is fine but one part might not be wha
 user can either configure the LEGOscript engine to produce an output that is closer to what the user wants, or he can
 even lock certain parts so that the LEGOscript engine never replaces them with something else.
 
-
 the LEGOscript language is an intermediary language that sits between the LDRAW language which is used to load the
 digital lego model. Unlike LDRAW it is not meant to be used to build or analize a lego model, instead, it allows the
 user to take an existing digital LEGO model, and use the LEGOscript engine to reduce the number of parts, while still
 maintaining the models asthetic, structural atability, and mechanical functions.
 
-
 The LEGOscript language is simply just a list structure of primatives, which you wrap in parenthesis in order to group
 parts, this is what is used to fine-tune what is outputted.
 
-
 Lets take a simple example: here we have two primative types, stud (s) and clutch (c), there is one of each:
-
 
 (s,c)
 
-
 with just two primatives you could have a 1x1 plate, or even a 1x1 brick, because both contain 1 stud and 1 clutch (or
 "antistud")
-
 
 The way that the LEGOscript engine would decide on which one to use is by looking at the surrounding parts in the 
 LDRAW script to check for collisions and for other primatives that the target part may connect to.
