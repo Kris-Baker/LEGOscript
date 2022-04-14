@@ -1,7 +1,7 @@
 LEGOscript
 
 This text describes how the LEGOscript intermediate language works, for complete documentation please visit:
-https://www.github.com/k82k8/LEGOscript/#readme.
+https://github.com/Kris-Baker/LEGOscript/#readme.
 
 The LEGOscript is a way for the user to more finely adjust what sort of results the LEGOscript engine produces, for
 instance it might output LDRAW script that is fine but one part might not be what the user is looking for, and so the
