@@ -16,10 +16,10 @@ typedef float fnum;
 
 
 char* NextLine( char* pzCur , int* puSizeOut ) {
-	char* pzNext = strchr( pzCur , '\n' )
+	char* pzNext = strchr( pzCur , '\n' );
 	if (pzNext) {
 		pzNext[0]=0; //process both LF and CRLF
-		if (pzCur != pzNext) && (pzNext[-1] == '\r') { pzNext[-1]=0; }
+		if ((pzCur != pzNext) && (pzNext[-1] == '\r')) { pzNext[-1]=0; }
 		//save size of line (optional)
 		if (puSizeOut) { *puSizeOut = (int)(((intptr)pzNext)-((intptr)pzCur)); }
 		//return pointer to next line
