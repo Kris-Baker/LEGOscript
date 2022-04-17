@@ -53,7 +53,7 @@ int main() {
 	if ( (pzTemp = strchr( pzPos , '\n' )) ) {		
 		pzTemp[0]=0 ; if (pzTemp[-1] == '\r') { pzTemp[-1]=0; }
 	} else {
-		pzTemp = pzPos+strlen(pzTemp);
+		pzTemp = pzPos+strlen(pzPos);
 	}
 	printf("'%s'\n",pzPos);
 	pzPos = pzTemp;
