@@ -84,7 +84,7 @@ _act(450,	FABULAND_BROWN,	                    "Fabuland Brown")\
 _act(462,	MEDIUM_ORANGE,	                    "Medium Orange")\
 _act(484,	DARK_ORANGE,        	            "Dark Orange")\
 _act(503,	VERY_LIGHT_GREY,    	            "Very Light Grey")\
-_act(507,	LIGHT_ORANGE_BROWN, 	            "Light Orange Brown")\
+_act(507,	LIGHT_ORANGE_BROWN,  	            "Light Orange Brown")\
 _act(508,	FABULAND_RED,	                    "Fabuland Red")\
 _act(509,	FABULAND_ORANGE,	                "Fabuland Orange")\
 _act(510,	FABULAND_PASTEL_GREEN,	            "Fabuland Pastel Green")\
